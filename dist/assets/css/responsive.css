@@ -292,8 +292,8 @@
 	}
 
 	.headerBox h1 {
-		font-size: 32px
 		margin-bottom: 10px;
+		font-size: 32px
 	}
 
 	.job-title {
@@ -397,6 +397,9 @@
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 479px) {
+	.site-footer {
+		position: relative !important;
+	}
 	.visible-xxs {
 		display: block;
 	}
